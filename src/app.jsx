@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Toaster } from './components/ui/toaster.jsx';
 import Navbar from './components/Navbar.jsx';
-import Footer from './components/Footer.jsx';
+import Footer from './components/footer.jsx';  // Changed to lowercase
 import HomePage from './pages/HomePage.jsx';
 
 function App() {
