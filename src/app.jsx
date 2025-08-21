@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Toaster } from './components/ui/toaster.jsx';
-import Navbar from './components/Navbar.jsx';
-import Footer from './components/footer.jsx';  // Changed to lowercase
-import HomePage from './pages/HomePage.jsx';
+import Navbar from './components/navbar.jsx';
+import Footer from './components/footer.jsx';
+import HomePage from './pages/homePage.jsx';
 
 function App() {
   return (
