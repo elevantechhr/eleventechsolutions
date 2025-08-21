@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Toaster } from './components/ui/toaster.jsx';
-import Navbar from './components/navbar.jsx';
-import Footer from './components/footer.jsx';
-import HomePage from './pages/homePage.jsx';
+import { Toaster } from '@/components/ui/toaster';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import HomePage from '@/pages/HomePage';
 
 function App() {
   return (
